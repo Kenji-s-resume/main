@@ -7,7 +7,6 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body style="background-color: rgb(30,30,30);">
-        <div style="display:block;position:fixed;height:50px;width:50px;clip-path: polygon(0% 100%, 50% 0%, 100% 100%, 50% 50%);background-color:rgb(255, 255, 255);margin:0px;padding:0px;bottom:10px;right:10px;cursor:pointer;z-index:999999999;" onclick="goSomewhere('#frontpage');"></div>
         <!--front page-->
         <fullpage style="background-image: url(background.png);background-size:cover;background-position: center;" id="frontpage">
             <fullpage style="backdrop-filter: blur(2px);">
@@ -189,12 +188,12 @@
                     </div>
                     <div style="display:block;width:20%;height:80vh;border: solid 5px rgb(255,255,100);position:relative;">
                         <center>
-                            <h1>JS</h1>
-                            <i>INTERMEDIATE</i>
+                            <h1>VANILLA JS</h1>
+                            <i>EXPERIENCED</i>
                             <br>
                             <br>
                             <div style="display:block;position:absolute;border: solid 7.5px rgb(255,255,100);width:15vw;height:15vw;border-radius:50%;left:50%;transform:translate(-50%,0%);">
-                                <div style="display:block;height:calc(100% + 15px);width:calc(50% + 7.5px);position:absolute;top:-7.5px;left:50%;background-color:rgb(30,30,30);">
+                                <div style="display:block;height:calc(50% + 7.5px);width:calc(50% + 7.5px);position:absolute;top:-7.5px;left:50%;background-color:rgb(30,30,30);">
                                 </div>
                             </div>
                         </center>
@@ -202,11 +201,11 @@
                     <div style="display:block;width:20%;height:80vh;border: solid 5px rgb(255,100,100);position:relative;">
                         <center>
                             <h1>HTML</h1>
-                            <i>INTERMEDIATE</i>
+                            <i>EXPERIENCED</i>
                             <br>
                             <br>
                             <div style="display:block;position:absolute;border: solid 7.5px rgb(255,100,100);width:15vw;height:15vw;border-radius:50%;left:50%;transform:translate(-50%,0%);">
-                                <div style="display:block;height:calc(100% + 15px);width:calc(50% + 7.5px);position:absolute;top:-7.5px;left:50%;background-color:rgb(30,30,30);">
+                                <div style="display:block;height:calc(50% + 7.5px);width:calc(50% + 7.5px);position:absolute;top:-7.5px;left:50%;background-color:rgb(30,30,30);">
                                 </div>
                             </div>
                         </center>
@@ -276,36 +275,37 @@
         </fullpage>
         <!--testimony page-->
         <fullpage style="position:relative;color:white;overflow:hidden;" id="testimonies">
-            <div style="display:block;position:absolute;height:10vh;width:100%;padding:0px;margin:0px;">
-                <h1 style="display:block;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);margin:0px;padding:0px;">TESTIMONIES</h1>
-            </div>
             <textarea style="display:block; height:0%;width:0%;border:none;margin:0px;padding:0px;" id="epictextarea" required></textarea>
             <div id="rotationdiv1">
 
-                <!--Myths & Chess-->
+                <!--Person 1-->
 
-                <div style="display:block;height:90vh;width:100vw;position:absolute;left:0%;top:0%;">
-                    <decreasearrow tabindex="1" id="decrease2"></decreasearrow>
-                    <div style="display:block;position:absolute;height:calc(80vh - 40px);width:calc(80% - 40px);background-color:rgb(210,210,210);left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;padding:20px;">
-                        <h1>Person</h1>
-                        <i style="text-align: left;">
-                            text
-                        </i>
+                <div style="display:block;height:100vh;width:100vw;position:absolute;left:0%;top:0%;">
+                    <h1 tabindex="1" id="decrease2" style="position:absolute;font-size:5vh;color:rgb(210,210,210);margin:0px;top:5vh;transform:translate(0%,-50%);cursor:pointer;white-space:nowrap;">← Go Back</h1>
+                    <div style="display:block;position:absolute;height:100vh;width:100vw;clip-path:polygon(0% 15%, 100% 5%, 100% 85%, 0% 95%);background-color:rgb(210,210,210);">
+                        <h1 style="position:absolute;height:5vh;margin:0px;top:15%;left:50%;transform:translateX(-50%);">Keizou Wang</h1>
+                        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                            <pre style="padding:0px;margin:0px;font-style:italic;font-size:3vh;max-width:50vw;display:inline-block;text-justify:inter-word;">
+                                <h1 style="font-family: 'Times New Roman';margin:0px;padding:0px;width:5vw;display:block;font-size:15vh;position:relative;transform:translate(-100%,8vh);">“</h1>Kenji made a song called "I'm trash" and it's a really good autobiographical song.<h1 style="font-family: 'Times New Roman';margin:0px;padding:0px;width:5vw;display:block;font-size:15vh;position:relative;left:100%;top:-3vh;">”</h1>
+                            </pre>
+                        </div>
                     </div>
-                    <increasearrow tabindex="1" id="increase2"></increasearrow>
+                    <h1 tabindex="1" id="increase2" style="position:absolute;font-size:5vh;color:rgb(210,210,210);margin:0px;top:95vh;left:100vw;transform:translate(-100%,-50%);text-align:right;cursor:pointer;white-space:nowrap;">Go Forward →</h1>
                 </div>
 
-                <!--Gaming & Tennis-->
+                <!--Person 2-->
 
-                <div style="display:block;height:90vh;width:100vw;position:absolute;top:0%;transform:translate(100%,0%);">
-                    <decreasearrow tabindex="1" id="decrease3"></decreasearrow>
-                    <div style="display:block;position:absolute;height:calc(80vh - 40px);width:calc(80% - 40px);background-color:rgb(210,210,210);left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;padding:20px;">
-                        <h1>Person</h1>
-                        <i style="text-align: left;">
-                            text
-                        </i>
+                <div style="display:block;height:100vh;width:100vw;position:absolute;left:100%;top:0%;">
+                    <h1 tabindex="1" id="decrease3" style="position:absolute;font-size:5vh;color:rgb(210,210,210);margin:0px;top:5vh;transform:translate(0%,-50%);cursor:pointer;white-space:nowrap;">← Go Back</h1>
+                    <div style="display:block;position:absolute;height:100vh;width:100vw;clip-path:polygon(0% 15%, 100% 5%, 100% 85%, 0% 95%);background-color:rgb(210,210,210);">
+                        <h1 style="position:absolute;height:5vh;margin:0px;top:15%;left:50%;transform:translateX(-50%);">Keizou Wang</h1>
+                        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                            <pre style="padding:0px;margin:0px;font-style:italic;font-size:3vh;max-width:50vw;display:inline-block;text-justify:inter-word;">
+                                <h1 style="font-family: 'Times New Roman';margin:0px;padding:0px;width:5vw;display:block;font-size:15vh;position:relative;transform:translate(-100%,8vh);">“</h1>Wow I'm Kenji and I'm really stupid!<h1 style="font-family: 'Times New Roman';margin:0px;padding:0px;width:5vw;display:block;font-size:15vh;position:relative;left:100%;top:-3vh;">”</h1>
+                            </pre>
+                        </div>
                     </div>
-                    <increasearrow tabindex="1" id="increase3"></increasearrow>
+                    <h1 tabindex="1" id="increase3" style="position:absolute;font-size:5vh;color:rgb(210,210,210);margin:0px;top:95vh;left:100vw;transform:translate(-100%,-50%);text-align:right;cursor:pointer;white-space:nowrap;">Go Forward →</h1>
                 </div>
             </div>
         </fullpage>
@@ -334,3 +334,4 @@
         <script src="script.js"></script>
     </body>
 </html>
+<!-- blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah-->
